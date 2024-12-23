@@ -29,7 +29,7 @@ export default function Login() {
       <div className="control-row">
         <div className="control no-margin">
           <label htmlFor="email">Email</label>
-          <input id="email" type="text" name="email" ref={email} />
+          <input id="email" type="email" name="email" ref={email} />
           <div className="control-error">
             {emailIsInvalid && <p>Please enter a valid email address</p>}
           </div>
